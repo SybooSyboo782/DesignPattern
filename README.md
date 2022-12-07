@@ -27,7 +27,7 @@
 - 원본 객체를 복제하는 방법으로 객체를 생성하는 패턴
 - 일반적인 방법으로 객체를 생성하여 비용이 큰 경우 주로 이용함
 
-### 싱글턴(Singleton)
+### 싱글턴([Singleton](https://github.com/SybooSyboo782/DesignPattern/blob/main/com/syboosyboo/designpattern/creational/singleton/singleton.md))
 - 하나의 객체를 생성하면 생성된 객체를 어디서든 참조할 수 있지만, 여러 프로세스가 동시에 참조할 수는 없음
 - 클래스 내에서 인스턴스가 하나뿐임을 보장하며, 불필요한 메모리 낭비를 최소화 할 수 있음
 
@@ -51,7 +51,7 @@
 - 객체 간의 결합을 통해 능동적으로 기능들을 확장할 수 있는 패턴
 - 임의의 객체에 부가적인 기능을 추가하기 위해 다른 객체들을 덧붙이는 방식으로 구현함
 
-### 퍼사드(Facade)
+### 퍼사드([Facade](https://github.com/SybooSyboo782/DesignPattern/blob/main/com/syboosyboo/designpattern/strucural/facade/facade.md))
 - 복잡한 서브 클래스들을 피해 더 상위에 인터페이스를 구성함으로써 서브 클래스들의 기능을 간편하게 사용할 수 있도록 하는 패턴
 - 서브 클래스들 사이의 통합 인터페이슬르 제공하는 Wrapper 객체가 필요함
 
