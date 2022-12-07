@@ -1,8 +1,8 @@
-package creational.singleton;
+package com.syboosyboo.designpattern.creational.singleton;
 
 /**
  * <pre>
- * Class : creational.singleton.Application
+ * Class : com.syboosyboo.designpattern.creational.singleton.Application
  * Comment: 싱글턴 패턴 연습
  * History
  * ================================================================

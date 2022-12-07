@@ -1,9 +1,9 @@
-package creational.singleton;
+package com.syboosyboo.designpattern.creational.singleton;
 
 /**
  * <pre>
- * Class : EagerSingleton
- * Comment: 이른 초기화 싱글톤패턴
+ * Class : LazySingleton
+ * Comment: lazysingleton 패턴
  * History
  * ================================================================
  * DATE             AUTHOR           NOTE
@@ -15,14 +15,20 @@ package creational.singleton;
  * @version 1(클래스 버전)
  * @see (참고할 class 또는 외부 url)
  */
-public class EagerSingleton {
+public class LazySingleton {
 
-    private static EagerSingleton eager = new EagerSingleton();
+    private static LazySingleton Lazy;
 
-    private EagerSingleton() {}
+    private LazySingleton() {}
 
-    public static EagerSingleton getInstance() {
-        return eager;
+    public static LazySingleton getInstance() {
+
+        if(Lazy == null) {
+            Lazy = new LazySingleton();
+        }
+
+        return Lazy;
+
     }
 
 }
