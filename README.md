@@ -18,7 +18,7 @@
 - 작게 분리된 인스턴스를 건축 하듯이 조합하여 객체를 생성함
 - 객체의 생성 과정과 표현 방법을 분리하고 있어, 동일한 객체 생성에서도 서로 다른 결과를 만들어 낼 수 있음
 
-### 팩토리 메서드(Factroy Method)
+### 팩토리 메서드([Factroy Method](https://github.com/SybooSyboo782/DesignPattern/blob/main/com/syboosyboo/designpattern/creational/factorymethod/factory-method.md))
 - 객체 생성을 서브 클래스에서 처리하도록 분리하여 캡슐화 한 패턴
 - 상위 클래스에서 인터페이스만 정의하고 실제 생성은 서브 클래스가 담당함
 - 가상 생성자(Virtual Constructor) 패턴이라고도 함
