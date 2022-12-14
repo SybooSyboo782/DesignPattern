@@ -1,27 +1,23 @@
-package com.syboosyboo.designpattern.strucural.facade;
+package com.syboosyboo.designpattern.creational.factorymethod;
 
 /**
  * <pre>
- * Class : Application
- * Comment: Facade 패턴 메인
+ * Class : BlueShoes
+ * Comment: 구두 인터페이스를 구현한 파란 구두 클래스
  * History
  * ================================================================
  * DATE             AUTHOR           NOTE
  * ----------------------------------------------------------------
- * 2022-12-07       부시연           최초 생성
+ * 2022-12-14       부시연           최초 생성
  * </pre>
  *
  * @author 부시연(최초 작성자)
  * @version 1(클래스 버전)
  * @see (참고할 class 또는 외부 url)
  */
-public class Application {
-
-    public static void main(String[] args) {
-
-        Facade facade = new Facade("김치찌개", "아이스크림");
-        facade.eat_Meal();
-
+public class BlueShoes implements Shoes{
+    @Override
+    public void color() {
+        System.out.println("BlueShoes");
     }
-
 }
